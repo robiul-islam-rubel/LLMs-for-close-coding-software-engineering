@@ -1,0 +1,13 @@
+code,definition
+UnavailabilityOfComponents,Physical devices and components may not be available
+LackOfStandardization,"Use of different technologies and standards, which change over time, makes development difficult"
+EthicalConcerns,"Ethical concerns ranging from data privacy, surveillance, etc"
+RegulatoryCompliance,"Meeting requirements can be challenging, particularly for smaller enterprises"
+Security,Software vulnerabilities and potential for cyber-attacks
+SafetyRisks,Safety risks specifically as it pertains to physical hardware
+IncreasedComplexity,Cyber-physical systems have become increasingly complex
+Shortages,The inability to acquire components due to shortages
+UnderstandingSoftwareComponents,"The process of fully understanding and analyzing software components, typically for the purpose of validation, is difficult and time consuming"
+Reproducability,Repeating the work of other groups is difficult
+DifferentCases,There are many different types of cyber-physical systems and there is likely not a one size fits all approach
+HardwareReliability,Variations in the quality of physical components can disrupt CPS supply chains.

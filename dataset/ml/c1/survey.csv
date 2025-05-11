@@ -1,0 +1,23 @@
+survey_response,llama_generated,human_codes
+"Increased reproducibility, easier iteration on previous works, more accessible resources, earlier detection of weaknesses/vulnerabilities.","['Reproducability', 'Security', 'Unsure', 'ImprovedIteration']","['Security', 'OpenAccess', 'Reproducability', 'ImprovedIteration']"
+It will provide structure to help people document their work.,['BetterDocumentation'],['BetterDocumentation']
+Similar answer to DataBOMs.,"['Unsure', 'BadAnswer']","['Reproducibility', 'IncreasedTransparency']"
+This would help developers not involved in the project have a better understanding of the software they are working with. ,"['BetterDocumentation', 'Teaching', 'Unsure', 'BetterCollaboration']",['Teaching']
+"Unsure, not experienced enough with them.","['Unsure', 'BadAnswer']",['Unsure']
+"Idealy I don't have to implement features like versioing manually myself, and even get inspired to use techniques that I usually don't think of myself (e.g. I would have never written code to monitor the GPU memory usage or GPU compute utility while training, even if I didn't have a tool that would monitor it for me.) and therefore ensure that I am using best practices or to be more concrete, my colleagues with lesser experience use best practices without me having to tell them everything :-)
+","['Reproducability', 'Automation', 'BestPractices', 'ImprovedIteration', 'BetterCollaboration']","['BestPractices', 'Automation']"
+An example of usage for the model...,"['Unsure', 'ExampleModelUsage', 'BadAnswer']",['ExampleModelUsage']
+Reproducibility,['Reproducability'],['Reproducability']
+"Reducing security risks.
+Making deployment/updates faster.","['Security', 'FasterDeployment']","['Security', 'FasterDeployment']"
+"As with DataBOMs, one big benefit is the ability to better detect biases and reproduce results.","['Reproducability', 'Unsure', 'DetectBiases']","['Reproducability', 'DetectBiases']"
+The secure and safe usage in critical domains. ,"['Security', 'Unsure', 'Trust']",['Security']
+People using models would be able to more easily discover issues with the models they're using.,"['Security', 'DetectBiases', 'ProblemLocation', 'BetterCollaboration']",['ProblemLocation']
+"Mostly the same as the DataBOM, it helps to verify the usability of the AIBOMs and helps to identify the potential issues and risks.",['VerifyUsability'],"['Security', 'ProblemLocation', 'VerifyUsability']"
+Trustworthy -- against supply chain type of attacks,"['Security', 'Trust']","['Security', 'Trust']"
+"As for the DataBOM, it would help increase the trust in the model.","['IncreasedTransparency', 'Unsure', 'Trust']",['Trust']
+No comment,"['Unsure', 'BadAnswer']",['BadAnswer']
+"Might help with the so-called ""reproducibility crisis"" in AI, though frankly I'm skeptical. I think the bigger benefit would be a CVE-like reporting of bias in datasets that let us see which models should be updated.",[],"['Reproducability', 'DetectBiases']"
+Continous Integration of AI models,"['Automation', 'FasterDeployment', 'ContinuousIntegration']",['ContinuousIntegration']
+"Similarly to dataBOMs, it could help with reproducing studies, better collaboration, faster iteration and improvements of model. Bugs, biases, and fairness issues could be discovered quickly","['Reproducability', 'Unsure', 'DetectBiases', 'ImprovedIteration', 'BetterCollaboration']","['ProblemLocation', 'ImprovedIteration', 'DetectBiases', 'Reproducability', 'BetterCollaboration']"
+"First and foremost, help manage compliance risk",['Compliance'],['Compliance']

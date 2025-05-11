@@ -1,0 +1,30 @@
+survey_response,llama_generated,human_codes
+"Some of the fields that would ideally be present are difficult to complete, requiring domain specific knowledge. If I'm good with image models and happen to also want to propose a new dataset, it is difficult for me alone to do all the analysis to create a full DataBOM. I will need people experienced in different domains, such as ethics, data science, and data visualization.",['FillingFields'],['FillingFields']
+Ridged requirements are always annoying when they don't apply to your work. Enforcing a standard will likely hurt innovation more than help it.,['RigidRequirements'],['RigidRequirements']
+Getting dataset creators to fill them in. Should be automated as much as possible.,[],['DatasetCreatorsMakingThem']
+"Companies not willing to release some information particularly around data collection.
+
+The potential threat of malicious actors using this information to find loop holes they can exploit.","['IPandPrivacy', 'Security']","['IPandPrivacy', 'Security']"
+Terminologies and standards used to reduce ambiguity in the BOMs are probably lacking.,['LackingStandards'],['LackingStandards']
+"Finding a good mix between accurate versioning and many updates. I would want to be able to access any version I trained a model with (or used some kind of data analysis on) but I would not like to have an updated version whenever I updated a single label (because then there would be thousands of versions if I update thousands of labels in a short time period).
+
+I also would like to be able to automatically check labeled data so I can inspect possible structural labeling errors as soon as possible (e.g. detect that something is marked as a date that is not parseable as a date, or having an invoice where the uid is not labeled).
+In general I would expect any DataBOM being well integrated with a labeling tool - at best with several of the opensource labeling tools available - while not forcing to use exactly that tool.","['Versioning', 'VerifyData']","['VerifyData', 'Versioning', 'Updating']"
+They're heavy and the distribution will be complicated because of it ,['Size'],"['Size', 'Distribution']"
+Maintenance,[],['Updating']
+Data privacy and security. ,['IPandPrivacy'],"['IPandPrivacy', 'Security']"
+"A major risk is that the BOM becomes yet another bureaucratic nightmare involving more and more documents to fill out, without actually solving the underlying problem.",['WorthlessComplianceDocument'],['WorthlessComplianceDocument']
+"The license, GDPR, uncertainty factors, etc. ",['IPandPrivacy'],"['IPandPrivacy', 'Regulation']"
+"It seems like DataBOMs would only be possible by using some central tool that manages all data fed into a model so that ad-hoc data (for example, from other files on disk) isn't trained into the model without being tracked.",['TrackingAllTrainingData'],['TrackingAllTrainingData']
+"1. Hard to define fields for describing different data in a standard way
+2. Hard to verify the effectiveness of the data",[],"['VerifyData', 'LackingStandards']"
+Size and versioning,[],"['Size', 'Versioning']"
+"The main challenges regard sensitive, personally identifiable, and private information, in general. Having a comprehensive DataBOM when such data are involved might be infeasible for privacy reasons. As an alternative, it might be necessary to provide a lower quantity of information (even aggregated).",['IPandPrivacy'],['IPandPrivacy']
+"There should be a mechanism to carry and show image hash with each image. Sometimes, images may seem that they are exactly the same but their hash values are different.",[],['DataHash']
+Many datasets are labeled by volunteers or untrusted folks (e.g. Amazon Mechanical Turk) and it is hard to formally represent those characteristics or interpret them.,[],['RepresentLabelers']
+The maintenance of keeping them up-to-date.,"['Updating', 'Maintenance']",['Updating']
+Standardizing the format and the adoption,['LackingStandards'],"['Adoption', 'LackingStandards']"
+"'- Documenting sources and methods
+- Maintaining sources and methods
+- Synthesizing descriptions
+- Maintaining descriptions",['Documentation'],"['Documentation', 'Maintenance']"

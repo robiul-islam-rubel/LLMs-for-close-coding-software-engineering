@@ -1,0 +1,15 @@
+code,definition
+Compliance,SBOMs are for ensuring compliance with regulations
+MachineReadable,Machines should be able to read or consume SBOM
+BadAnswer,Answer is not applicable or nonsensical
+Versioning,SBOMs should be used in the versioning of software
+Debugging,SBOMs should be used to identify and remove bugs from software
+DependencyTracker,SBOMs should be used to track dependencies in a piece of software. That is that they provide an inventory
+Transparency,SBOMs should provide outsiders with insight into the makeup of a piece of software
+Security,"SBOMs should be used to facilitate security related activities, including vulnerability management"
+Provenance,SBOMs should indicate where a piece of software originated from
+Language,SBOMs are a language
+Licensing,SBOMs should be used to maintain license compliance and or used to share the software license of an end product
+Documentation,SBOMs should be used to describe a software project to stakeholders
+Accountability,SBOMs can be used to hold creators of a piece of software accountable
+RelationsInSystem,SBOMs show how different files in a software system relate and interact

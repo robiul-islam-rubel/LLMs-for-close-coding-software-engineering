@@ -1,0 +1,21 @@
+survey_response,llama_generated,human_codes
+"If you are proposing a dataset, make a dataBOM along with it. if you are using data, link to the dataset using a resource that also has the dataBOM accessible. If you are doing any sort of training in the process of working with data, create an AIBOM describing this training. I think that they should be separate overall, with each serving to describe a different category of things.",['Separate'],['Separate']
+The data is what defines what the model will learn. So knowing about the data half the story of a model.,['Base'],['BadAnswer']
+"You would need both to reproduce results from an ML system, so they should be considered complementary.","['Complementary', 'PackagedTogether']","['Separate', 'Complementary']"
+Every AIBOMs should have a DataBOMs,"['Complementary', 'OneToMany', 'Base', 'PackagedTogether', 'Compatible']",['BadAnswer']
+There should be unambiguous ways each can refer to the other.,"['References', 'Integratable', 'Compatible']","['References', 'Separate']"
+"They should be well integrateable, showing cross dependencies whenever possible","['Integratable', 'Compatible']",['Integratable']
+"If the first in present you should be able to get the second or a small portion of it, but not necessarily the other way around","['NonSymmetric', 'OneToMany']",['NonSymmetric']
+The link between AIBOMs and DataBOMs (Data Bill of Materials) is critical for guaranteeing openness and accountability in ML/DL system development and deployment.,['Complementary'],['BadAnswer']
+Aibom should have a reference to at least a validation dataset and probably performance metrics with it,['References'],"['References', 'Separate']"
+I see them as independent.  An AIBOM should refer to a DataBOM where applicable.,['Separate'],"['Complementary', 'NonSymmetric', 'References', 'Separate']"
+Not sure. ,"['BadAnswer', 'Unsure']",['Unsure']
+AIBOM should point to one or more DataBOM that describe the training data used to create the model.,"['References', 'NonSymmetric', 'OneToMany']","['OneToMany', 'References', 'Separate', 'NonSymmetric', 'Complementary']"
+"DataBOMs should be the base of AIBOMs, as how different datasets are processed, curated, and labeled largely affect the performance and usability of the ML/DL system. Misuse of data could lead to harmful consequences, including hate responses, privacy leaks, and infringement of IP and copyrights.","['Base', 'DataBomPartOfAibom']",['Base']
+Downstream and upstream,[],"['DataFromUpstream', 'AiForDownstream']"
+They should be provided together; having only one of them would be useless. ,"['Complementary', 'PackagedTogether', 'Compatible']","['Separate', 'PackagedTogether']"
+Support each other for a better training experience,['Complementary'],"['Complementary', 'Separate']"
+DataBOMs are a subset of AIBOMs. Any ML/AI model shipped with an AIBMO was trained on data that is described with a DataBOM.,"['NonSymmetric', 'OneToMany', 'Base', 'DataBomPartOfAibom']",['Complementary']
+DataBOMs should be a part/section of AIBOMs,"['PackagedTogether', 'DataBomPartOfAibom']",['DataBomPartOfAibom']
+Certify whether a specific AIBOM is compatible and operational on a DataBOM,['Compatible'],"['Compatible', 'Separate']"
+AIBOMs should contain DataBOMs,"['OneToMany', 'Base', 'PackagedTogether', 'DataBomPartOfAibom']",['DataBomPartOfAibom']

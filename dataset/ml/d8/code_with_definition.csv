@@ -1,0 +1,20 @@
+code,definition
+FillingFields,"Information for required fields is missing, difficult to obtain, or may require a domain expert"
+RigidRequirements,"Rigid, enforced standards and requirements will be an obstacle to DataBOM creation"
+DatasetCreatorsMakingThem,Dataset creators will need to be incentivized to create DataBOMs.  Similar problem with SBOMs.
+IPandPrivacy,Intellectual property rights and privacy concerns may be obstacles to DataBOM creation
+Security,Bad actors may find new vulnerabilities by looking through DataBOMs.  Security by obscurity
+LackingStandards,"Standards for DataBOM are lacking, leaving things ambiguous"
+Versioning,Issues arise in the versioning of DataBOMs
+Updating,Issues arise in the updating of DataBOMs
+VerifyData,"There needs to be a way to inspect, check, and verify the data and data labels in a DataBOM"
+Distribution,Distribution of software will be made more complicated by DataBOMs
+WorthlessComplianceDocument,DataBOMs become a compliance document and don't actually solve any problems
+TrackingAllTrainingData,Tracking all of the data used to train a model.  Maybe some data is read from memory (files on disk)
+Size,DataBOMs will likely be large files
+DataHash,"Hashes should be provided for each data element in the data set, particularly for images"
+RepresentLabelers,Providing information in the databom about how information was labeled
+Regulation,Laws like the GDPR may make it difficult to create DataBOMs.
+Adoption,A lack of adoption by the community will be a major challenge
+Documentation,It will be difficult to document sources and methods
+Maintenance,It will be difficult to maintain sources and methods

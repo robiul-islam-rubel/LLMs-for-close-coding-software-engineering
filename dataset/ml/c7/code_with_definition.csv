@@ -1,0 +1,20 @@
+code,definition
+DeferToLegalSystem,AIBOMs' handling of licensed material should be based on applicable jurisdictions' legal judgements.
+UseCaseSpecific,AIBOMs' handling of licensed material depends on what the dataset will be used for.
+AuthorOpinion,Licensed material should be handled according to wishes/opinions/objections of the author(s).
+BOMCreatorLiable,"The creator of the BOM is responsible for ensuring that licensed materials are used correctly, and may be liable if they claim that material is used correctly when that is not the case."
+ProvideSourceLicenses,AIBOMs should provide license information for their data sources.
+ProvideSources,AIBOMs should include information on where data was sourced from.
+ProvideTimestamp,AIBOMs should include information on when data was collected.
+OptOut,Data owners should be able to opt out of data scraping efforts / having their material included in datasets.
+Unsure,"Response equivalent to I don't know"
+ShouldNotAddress,AIBOMs should not address licensed material.
+UseMaterialsLegally,"AIBOM creators should ensure that they use materials they are approved to use, follow the license requirements for, or are open-source/freely available."
+ProvideMethodology,AIBOMs should describe the methodology of how their data was obtained.
+DiscloseLicensedData,AIBOMs specify that systems were trained on licensed data.
+DataOwnersCanCheck,Data owners should be able to determine if their data/materials was included in a dataset and see exactly which data was used.
+ConflictOfInterest,AIBOMs should disclose any conflicts of interest regarding information used.
+DisclosePII,AIBOMs should disclose whether material includes retrievable/recognizable personally identifiable information.
+PartOfImage,The information should be included as part of the image
+AutomatedScreening,Tool support should be available to automate the screening process and warn developers about potential license infringement
+BadAnswer,Response is not applicable or nonsensical.

@@ -1,0 +1,9 @@
+code,definition
+VersionControl,SBOMs facilitate version control in CPS
+CompatibilityIssues,SBOMs can help mitigate compatibility issues in CPS
+SecurityRisks,SBOMs help to detect and address security issues
+Compliance,"SBOMs help maintain compliance with regulations, standards, and specifications"
+DependencyManagement,SBOMs help in dependency management activities
+ProvideProvenance,SBOMs should state where a component originates from and when it was produced
+ProvideIntentionData,SBOMs should provide information about the intended uses of a software
+Important,The role is important or essential

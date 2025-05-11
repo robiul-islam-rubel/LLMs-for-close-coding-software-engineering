@@ -1,0 +1,27 @@
+code,definition
+BadAnswer,"The response doesn't answer the asked question. The response is incoherent, rambling, etc."
+EasierToWorkWith,The data becomes easier to work with
+BetterDocumentation,Data will be documented better if a specific standard is being used
+IncreasedTransparency,"Increased transparency into how the data was acquired, processed, etc."
+IdentifyVulnerabilities,DataBOMs could make identifying bias and vulnerabilities in a model easier
+IncreasedModelUnderstanding,Understanding of model behavior will be increased as a result of databoms
+Reproducibility,Reproducibility is made easier
+AssessUsages,"More easily assess tools, products, and studies that rely on the dataset"
+BetterDataSelection,"Databoms will make determining if a dataset fits a particular use case easier.
+
+This can also refer to better quality control of data"
+DataAnalysis,DataBOMs that include data statistics will make understanding a dataset easier without having to explore it manually.
+DataVersioning,Ability to determine the version of a dataset easily
+ExampleModelUsage,"The DataBOM provides an example usage of an SBOM.
+
+Not sure how much sense this answer makes given the question"
+GuaranteesOnModelPerformance,"Guarantees about the performance of the model
+
+Not sure how much sense this answer actually makes given the question"
+ProtectIP,Protect the copyright holder and intellectual property rights
+PreventDataAbuse,Prevent datasets from being abused or used in ways that violate terms of service
+IncreasedModelTrust,Trust in AI models with DataBOMs will be increased
+Unsure,"Benefits are unknown or the response was equivalent to I don't know"
+ValidationAndTesting,Model validation and testing becomes easier when using DataBOMs.
+BetterLabeling,DataBOMs help create better classified data.
+Compliance,DataBOMs will assist in managing compliance

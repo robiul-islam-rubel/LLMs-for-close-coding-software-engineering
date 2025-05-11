@@ -1,0 +1,25 @@
+survey_response,llama_generated,human_codes
+"I think they should echo the latest legal stances from different jurisdictions, as well as any personal opinions/objections the authors may have to particular uses of a dataset.",['AuthorOpinion'],"['UseCaseSpecific', 'AuthorOpinion', 'DeferToLegalSystem']"
+"If the AIBOM specifies that there is no issue with licensed material and there turns out to be an issue, then the legal liability will rest with the creator of the AIBOM who misrepresented the claims.",['BOMCreatorLiable'],['BOMCreatorLiable']
+Maybe provide a license information for each data source. Also provide information allowing data owners to opt out from scrapping.,"['ProvideSourceLicenses', 'OptOut']","['OptOut', 'ProvideSourceLicenses']"
+All areas where data is sourced from should be included,['ProvideSources'],['ProvideSources']
+I'm unsure due to lack of expertise in this area.,['Unsure'],['Unsure']
+"I am not sure if they should, however I am also not deep in the copyright debate, as I usually use customer data I got permission to use.",['Unsure'],['ShouldNotAddress']
+We should always attach a license to insure if the author wants this he will be able to make the person using his data illegally to stop or get punished,"['AuthorOpinion', 'ProvideSourceLicenses', 'UseMaterialsLegally']","['AuthorOpinion', 'ProvideSourceLicenses', 'BOMCreatorLiable']"
+Getting the copyright holder's approval or using open-source software,['UseMaterialsLegally'],['UseMaterialsLegally']
+"If such data is used, the methodology should be described. Would be also nice to have some proof-of-legal-use document included.",['ProvideMethodology'],"['ProvideSourceLicenses', 'UseMaterialsLegally']"
+"I've brought up this issue for years, but no one has ever wanted to discuss it.  Terms of Service and licenses can forbid the practice, but it happens anyway.  In theory, an AIBOM could require builders of AI systems to disclose that a system was trained using licensed data, but I suspect there would be rampant violation of the requirement.  No one wants to admit that their new AI system works well because it copies creative effort.",[],['DiscloseLicensedData']
+Not sure. ,['Unsure'],['Unsure']
+"If using external copyrighted data, the Data BOM should include the URL the data was scraped from and timestamp of when the data was scraped.
+
+In an ideal world, there would be some system copyright owners could use to determine if their copyrighted data was included in the dataset. If so, they should be entitled to know what portion of their copyrighted data was used (i.e. they should be able to see and download 'their' data from the training dataset).","['ProvideSources', 'ProvideTimestamp']","['ProvideTimestamp', 'ProvideSources', 'DataOwnersCanCheck']"
+"1. The presence of licensed material, and what licenses
+2. Will this be a conflict of interest and infringement of copyrights to the original licensed material?
+3. If these materials are processed, will the personal information/identification (e.g., human face, drawing style) be able to be retrieved and recognized?",[],"['ConflictOfInterest', 'DiscloseLicensedData', 'DisclosePII', 'ProvideSourceLicenses']"
+Follow the license requirement. But I also think some license needs updates.,['UseMaterialsLegally'],['UseMaterialsLegally']
+"It should explicitly report the licenses of the used material, when relevant.","['ProvideSourceLicenses', 'UseMaterialsLegally', 'DiscloseLicensedData']",['ProvideSourceLicenses']
+Can be a part of an image like PPM,"['PartOfImage', 'BadAnswer']",['PartOfImage']
+The creators of datasets are responsible for honoring licenses. Governments should introduce legislation and/or regulation to enforce this -- GDPR etc.,['BOMCreatorLiable'],"['UseMaterialsLegally', 'BOMCreatorLiable']"
+"They should identify and group the licenses, and report them to the developer so that he or she can exclude the data or contact the person owning the license","['ProvideSourceLicenses', 'UseMaterialsLegally']",['ProvideSourceLicenses']
+Automate the screening process and report warnings about possible license infringement,['AutomatedScreening'],['AutomatedScreening']
+I think this question is too broad :,[],['BadAnswer']

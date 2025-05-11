@@ -1,0 +1,27 @@
+survey_response,llama_generated,human_codes
+"Time consuming, requires developers to write documentation, may require domain specific knowledge and specific or niche skillsets","['TimeConsuming', 'Documentation', 'DomainSpecificKnowledge']","['TimeConsuming', 'Documentation', 'DomainSpecificKnowledge']"
+It is hard to anticipate how an imposed structure will hinder someones work.,['TooStructured'],['TooStructured']
+Similar answer to DataBOMs.,[],['Adoption']
+"Companies not willing to release information.
+
+Malicious actors taking advantage this information to find vulnerabilities ","['WithholdingInformation', 'Security', 'EnsureConfidentiality']","['WithholdingInformation', 'Security']"
+"Unsure, not experienced enough with them.","['Unsure', 'NoChallenges']",['Unsure']
+"There needs to be some trade off between working out of the box and being customizable. For example at work we are currently using ClearML for training and monitoring, however ClearML's documentation is mostly you don't need to do anything, we do everything for you, they are applying a lot of features we don't need/want while failing to do other things - like tracking metrics on a custom training loop - automatically. Then their documentation is not very good, as they expect their users to do the exact usecase they described, using certain training libraries. Making it more complicated to manually add metrics you want to add (although the solution was easy after knowing what the solution was)
+A good tool would make clear if it goes all in on acertain tool chain or - as I would prefer - make it easy to adapt it to any training I want, giving me options to adapt on several ways so I can choose the adoption that is the easiest for me.","['CustomizableTools', 'UseCases']","['UseCases', 'CustomizableTools']"
+They're heavy so it will be complicated to deliver them...,"['Distribution', 'BadAnswer']","['Size', 'Distribution']"
+Standardization,['Standardization'],['Standardization']
+Training dataset is usually large and top secret of a company. It's hard to involve some third party here. Solving that may require some new laws.,['WithholdingInformation'],"['EnsureConfidentiality', 'WithholdingInformation', 'Size']"
+"Also as with DataBOMs, a major risk is that it increases paperwork without actually solving the underlying problem.  Requiring AIBOMs could create a quagmire of red tape.",[],"['TimeConsuming', 'NotUseful']"
+"Common standard, diverse use cases, confidentiality of data. ","['Standardization', 'EnsureConfidentiality']","['EnsureConfidentiality', 'UseCases', 'Standardization']"
+"If creation of an AIBOM requires manual effort on the part of the people creating the model, it's likely not going to be widely adopted. It may be difficult to adopt any new process if it adds significant friction between the action of retrieving data and using it in training the model.",['TimeConsuming'],"['Adoption', 'TimeConsuming']"
+"Hard to verify the correctness of the claimed dependencies, especially for big models. With more common AI services like OpenAI APIs provided as a part of software development, many of these services are hidden, and difficult for the public to check their risks and issues. Even its users and developers hardly understand what will be the data and ML process it will invoke.",['VerifyDependencies'],"['WithholdingInformation', 'VerifyDependencies']"
+"Size, versioning",['Versioning'],"['Versioning', 'Size']"
+No particular challenge.,"['Unsure', 'NoChallenges', 'BadAnswer']",['NoChallenges']
+Some may see as not needed information.,['WithholdingInformation'],['NotUseful']
+"We barely use SBOMs, and AIBOMs will be harder.",[],['Adoption']
+Making them work on many different AI models/systems.,"['CustomizableTools', 'UseCases', 'CrossModel']",['CrossModel']
+Adoption of these systems by large organizations. The continuous evolution and changes in the models could make them obsolete quite quickly. ,['ObsoleteQuickly'],"['Adoption', 'ObsoleteQuickly']"
+"'- Documenting methods
+- Maintaining methods
+- Synthesizing descriptions
+- Maintaining descriptions",['Documentation'],"['Documentation', 'Maintenance']"

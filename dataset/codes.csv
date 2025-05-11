@@ -1,0 +1,166 @@
+code,definition
+IncreasedAdoption,Increased use and adoption of AIBOM will help make accuracy checking easier
+Documentation,More and improved documentation of AI models and / or there dependencies
+Requirements,Requirements imposed by top paper venues or other sources.  These requirements will make AIBOMs more prevalent and more correct
+ReproduceModel,The ability to successfully reproduce the model demonstrates the correctness of the AIBOM
+BadAnswer,"The response doesn't answer the asked question.  The response is incoherent, rambling, etc."
+Certification,Review boards or another 3rd party assess the correctness of an AIBOM or certify a particular vendor
+ChatBot,The answer likely was derived from a chatbot and should thus be excluded from analysis
+Databases,Compare AIBOM contents with available 3rd party databases.
+PinnedVersions,The specific versions of dependencies used should be included explicitly
+IncludedEnvironment,A docker container should be provided that has the training environment included
+ContinuousIntegrationTests,Tests should be run as part of the continuous integration process
+EstablishBestPractices,Establish a set of agreed upon rules and best practices for the creation of AI models and their accompanying AIBOMs
+EmphasisOnDataDependencies,An emphasis should be placed on data dependencies
+CommunityReporting,Users and developers can report false or incorrect dependencies in an AIBOM
+ProvenanceInformation,Including provenance information will help to determine the correctness of an AIBOM
+AutomatedTool,"Response proposes the use of a tool, even if the specific details aren't clear"
+UniversalAPI,The establishment of a universal and agreed upon API
+ListLibraries,List libraries used by a project to compare against the SBOM
+ModelTrainedViaAIBOM,"The model and the AIBOM are inseparable and if the AIBOM is incorrect, then the model will not run"
+ModelCode,AIBOM correctness can be verified by viewing the model's code.
+ScreeningPipeline,Screening processes should be added to the development pipeline.  These could be automated tools and tests or actual manual reviews
+ZeroKnowledgeProof,Apply zero knowledge proofs to the problem
+CostlessVerification,Build data integrity with costless verification (related to the block chain)
+Separate,"AIBOMs and DataBOMs can be used together, but should be two separate entities"
+BadAnswer,"The response doesn't answer the asked question. The response is incoherent, rambling, etc.
+The answer speaks specifically about the relation between data and AI instead of their associated BOMs"
+Complementary,AIBOMs and DataBOMs should be used together
+ChatBot,The answer likely was derived from a chatbot and should thus be excluded from analysis
+References,Clear and unambiguous references should be used to link AIBOM to DataBOM and vice versa
+Integratable,Integration should be easy (i.e. databom integration with aibom should be easy)
+NonSymmetric,"The relationship between AIBOM and DataBOM isn't symmetric.  That is that AIBOMs can include references to DataBOM, but DataBOMs shouldn't include references to AIBOMs."
+OneToMany,The AIBOM to DataBOM relationship can be described as a one-to-many.  A single AIBOM can reference one or more DataBoms.
+Base,DataBOMs serve as the base / foundation for AIBOM
+AiForDownstream,AIBOMs are generated for downstream components
+DataFromUpstream,DataBOMs are acquired from upstream components
+PackagedTogether,"DataBOMs and AIBOMs should somehow be packaged together, since one without the other is useless."
+DataBomPartOfAibom,The information from a databom should be included in an aibom
+Unsure,"Answer equivalent to ""I don't know"""
+Compatible,AIBOMs need to be made compatible with databom and vice versa
+BadAnswer,"The response doesn't answer the asked question. The response is incoherent, rambling, etc."
+EasierToWorkWith,The data becomes easier to work with
+BetterDocumentation,Data will be documented better if a specific standard is being used
+IncreasedTransparency,"Increased transparency into how the data was acquired, processed, etc."
+IdentifyVulnerabilities,DataBOMs could make identifying bias and vulnerabilities in a model easier
+IncreasedModelUnderstanding,Understanding of model behavior will be increased as a result of databoms
+Reproducibility,Reproducibility is made easier
+AssessUsages,"More easily assess tools, products, and studies that rely on the dataset"
+BetterDataSelection,"Databoms will make determining if a dataset fits a particular use case easier.
+This can also refer to better quality control of data"
+DataAnalysis,DataBOMs that include data statistics will make understanding a dataset easier without having to explore it manually.
+DataVersioning,Ability to determine the version of a dataset easily
+ExampleModelUsage,"The DataBOM provides an example usage of an SBOM.
+Not sure how much sense this answer makes given the question"
+GuaranteesOnModelPerformance,"Guarantees about the performance of the model
+Not sure how much sense this answer actually makes given the question"
+ProtectIP,Protect the copyright holder and intellectual property rights
+PreventDataAbuse,Prevent datasets from being abused or used in ways that violate terms of service
+IncreasedModelTrust,Trust in AI models with DataBOMs will be increased
+Unsure,"Benefits are unknown or the response was equivalent to ""I don't know"""
+ValidationAndTesting,Model validation and testing becomes easier when using DataBOMs.
+BetterLabeling,DataBOMs help create better classified data.
+Compliance,DataBOMs will assist in managing compliance
+FillingFields,"Information for required fields is missing, difficult to obtain, or may require a domain expert"
+RigidRequirements,"Rigid, enforced standards and requirements will be an obstacle to DataBOM creation"
+DatasetCreatorsMakingThem,Dataset creators will need to be incentivized to create DataBOMs.  Similar problem with SBOMs.
+IPandPrivacy,Intellectual property rights and privacy concerns may be obstacles to DataBOM creation
+Security,Bad actors may find new vulnerabilities by looking through DataBOMs.  Security by obscurity
+LackingStandards,"Standards for DataBOM are lacking, leaving things ambiguous"
+Versioning,Issues arise in the versioning of DataBOMs
+Updating,Issues arise in the updating of DataBOMs
+VerifyData,"There needs to be a way to inspect, check, and verify the data and data labels in a DataBOM"
+Distribution,Distribution of software will be made more complicated by DataBOMs
+WorthlessComplianceDocument,DataBOMs become a compliance document and don't actually solve any problems
+TrackingAllTrainingData,Tracking all of the data used to train a model.  Maybe some data is read from memory (files on disk)
+Size,DataBOMs will likely be large files
+DataHash,"Hashes should be provided for each data element in the data set, particularly for images"
+RepresentLabelers,Providing information in the databom about how information was labeled
+Regulation,Laws like the GDPR may make it difficult to create DataBOMs.
+Adoption,A lack of adoption by the community will be a major challenge
+Documentation,It will be difficult to document sources and methods
+Maintenance,It will be difficult to maintain sources and methods
+Adoption,The completeness and correctness of DataBOMs will improve as the technology is adopted.
+AcademicRequirements,"Make the usage of complete and correct DataBOMs required in academic settings, e.g. required for submission to conferences and journals."
+LegalRequirements,Impose a legal liability for creating DataBOMs which are incorrect or misrepresentative.
+TrustedThirdParty,"A trusted community, board, or organization should verify the completeness and correctness of DataBOMs."
+ValidationTools,Tools and tests should be able to verify the completeness and correctness of DataBOMs.
+AutomaticValidation,"Validation should occur automatically at some point in the process of creating and storing DataBOMs, such as on submission to a version control system."
+CryptographicVerification,Protect the authenticity of the DataBOM with a cryptographic hash or similar tools.
+DataGovernance,Employ data governance techniques to ensure the completeness and correctness of DataBOMs.
+Documentation,Thorough documentation aids in achieving completeness and correctness.
+FormalMethods,Formalization can help to verify the completeness and correctness of DataBOMs.
+Testing,Rigorous testing can help ensure the completeness and correctness of DataBOMs.
+StandardizedProcedures,Standardized training procedures can monitor data used and prevent inaccuracies from appearing in DataBOMs.
+Unsure,"Answer equivalent to ""I don't know"""
+ProvenanceInformation,Including provenance information will help to determine the correctness of a DataBOM.
+NotPossibleForPrivateInfo,Completeness and correctness cannot be assured when the DataBOM handles private information.
+TraditionalMethods,Methods employed for data quality and insurance without DataBOM
+Impossible,Impossible due to the nature of data collection or labelling.  Could be that data contains private or sensitive information or that the labeling cannot be characterized
+MLBasedDataLabeling,Data described by DataBOMs could be labeled with machine learning techniques.
+AuditTooling,Tools that can audit databom
+UpgradeTooling,Tools that can upgrade databom or components
+ZeroKnowledgeProof,Apply zero knowledge proofs to the problem
+CostlessVerification,Build data integrity with costless verification (related to the block chain)
+Reproducability,AIBOMs make it easier to reproduce work.
+Security,AIBOMs make it easier to detect/locate vulnerabilities or mitigate other security risks.
+OpenAccess,AIBOMs make it faster/easier to access resources associated with a system.
+BetterDocumentation,AIBOMs assist with documenting work.
+IncreasedTransparency,"Increased transparency into how the data was acquired, processed, etc."
+Teaching,AIBOMs can help people unfamiliar with the project learn more about it.
+Unsure,"Answer equivalent to ""I don't know"""
+Automation,AIBOMs help to automate development tasks.
+BestPractices,The use of AIBOMs helps developers to follow best practices.
+ExampleModelUsage,The AIBOM provides an example of usage for the model.
+FasterDeployment,AIBOMs help developers make updates and deployments faster.
+DetectBiases,AIBOMs make it easier to identify potential biases in the model.
+ProblemLocation,AIBOMs highlight issues with models and make them easier to find.
+VerifyUsability,"Help to verify usability of the system.
+(Vague answer)"
+Trust,AIBOMs increase trust in the model.
+ImprovedIteration,AIBOMs will make the iterative process of improving on previous works much easier
+ContinuousIntegration,AIBOMs will facilitate the continuous integration of ai models
+BadAnswer,Response is not applicable or nonsensical.
+BetterCollaboration,AIBOM could make collaboration easier
+Compliance,AIBOMs will assist in managing compliance
+TimeConsuming,Creating/using AIBOMs requires a great deal of time.
+Documentation,AIBOMs are another component which requires developers to write documentation.
+DomainSpecificKnowledge,Creating/using AIBOMs may require specialized knowledge in specific areas.
+TooStructured,The highly-structured format of AIBOMs may hinder work.
+Adoption,"AIBOMs may go unused, or created with only minimal levels of detail."
+WithholdingInformation,Organizations may be reluctant to release the information which would populate AIBOMs.
+Security,Bad actors may find new vulnerabilities by looking through AIBOMs. Security by obscurity
+Unsure,"Answer equivalent to ""I don't know"""
+CustomizableTools,Tools should be able to adapt to different use cases.
+Distribution,Distributing AIBOMs is difficult.
+Standardization,AIBOMs should be better standardized.
+NotUseful,AIBOMs do not solve the problems they purport to.
+UseCases,AIBOMs should be able to adapt to different use cases.
+EnsureConfidentiality,AIBOMs should not release confidential information.
+VerifyDependencies,Difficult to verify the dependencies claimed by an AIBOM.
+Size,AIBOMs are too large.
+Versioning,It is difficult to manage different versions of AIBOMs.
+NoChallenges,Respondent could not identify any challenges.
+CrossModel,AIBOMs should work for various types of models and systems
+BadAnswer,Response is not applicable or nonsensical.
+ObsoleteQuickly,The rapid changes and improvements of AI models will result in AIBOMs becoming quickly obsolete
+Maintenance,It will be difficult to maintain sources and methods
+DeferToLegalSystem,AIBOMs' handling of licensed material should be based on applicable jurisdictions' legal judgements.
+UseCaseSpecific,AIBOMs' handling of licensed material depends on what the dataset will be used for.
+AuthorOpinion,Licensed material should be handled according to wishes/opinions/objections of the author(s).
+BOMCreatorLiable,"The creator of the BOM is responsible for ensuring that licensed materials are used correctly, and may be liable if they claim that material is used correctly when that is not the case."
+ProvideSourceLicenses,AIBOMs should provide license information for their data sources.
+ProvideSources,AIBOMs should include information on where data was sourced from.
+ProvideTimestamp,AIBOMs should include information on when data was collected.
+OptOut,Data owners should be able to opt out of data scraping efforts / having their material included in datasets.
+Unsure,"Response equivalent to ""I don't know"""
+ShouldNotAddress,AIBOMs should not address licensed material.
+UseMaterialsLegally,"AIBOM creators should ensure that they use materials they are approved to use, follow the license requirements for, or are open-source/freely available."
+ProvideMethodology,AIBOMs should describe the methodology of how their data was obtained.
+DiscloseLicensedData,AIBOMs specify that systems were trained on licensed data.
+DataOwnersCanCheck,Data owners should be able to determine if their data/materials was included in a dataset and see exactly which data was used.
+ConflictOfInterest,AIBOMs should disclose any conflicts of interest regarding information used.
+DisclosePII,AIBOMs should disclose whether material includes retrievable/recognizable personally identifiable information.
+PartOfImage,The information should be included as part of the image
+AutomatedScreening,Tool support should be available to automate the screening process and warn developers about potential license infringement
+BadAnswer,Response is not applicable or nonsensical.

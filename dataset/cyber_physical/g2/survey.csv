@@ -1,0 +1,15 @@
+survey_response,llama_generated,human_codes
+"CPS is a combination of physical systems and software systems that are interconnected and work together to perform complex tasks. 
+
+Open-source software plays a crucial role in the development, evolution, and even early implementation of cyber-physical systems (CPS) for beginners. Open-source software provides an affordable and accessible way to develop software systems that can be integrated with the physical systems in a CPS. It facilitates communities around the world to address the very same problems from a different perspective (or point of view). It is basically essential in both industry and academia.
+
+Another advantage of open-source software for CPS is that it can be customized and modified to meet the specific needs of a CPS. 
+It allows developers and experts in other areas to collaborate and share their work, leading to the creation of more robust and efficient software systems. 
+
+Furthermore, open-source software can also help to reduce the cost of developing and implementing CPS. It allows developers to reuse code and avoid costly licensing fees. This can help to accelerate the development and deployment of CPS and make them more accessible to a wider range of users. I have seen this done by many large open-source CPS communities (ROS, Gazebo, etc.).
+","['ValuableResourceForBeginners', 'UsedInIndustry', 'UsedInAcademia', 'EasilyCustomized', 'ReducedCost', 'AvoidLicensingFees', 'FasterDevelopment', 'GeneralPurposeFoundation', 'HelpsDevelopmentAndTesting']","['FasterDevelopment', 'EasilyCustomized', 'MoreAccessibleProducts', 'UsedInIndustry', 'IncreasedInnovation', 'AvoidLicensingFees', 'ReducedCost', 'ValuableResourceForBeginners', 'UsedInAcademia']"
+"One of the main reasons for the open-source is the cost, as it tends to be a big factor for the companies. Also related to the previous question, one major role for the open-source and with the risk of cyber attacks, an open-source software is more trustable than a black box software. Thus, these two reasons complement each others.","['ReducedCost', 'AvoidLicensingFees', 'MoreTrustworthy']","['ReducedCost', 'MoreTrustworthy']"
+"Mainly, to provide the general-purpose infrastructure on which the system-specific code rides.  E.g., the OS, virtualization/containerization, messaging middleware, database management.",['GeneralPurposeFoundation'],['GeneralPurposeFoundation']
+Open-source software could encourage innovation by allowing more people to participate in the innovation cycle. ,['IncreasedInnovation'],['IncreasedInnovation']
+"It again depends on the kind of CPS but, in general, OSS gets more important. Customers of CPS are usually interested in open source software due to its openness. In contrast, producers of CPS sometimes tend to stick to closed ecosystems at the moment. However, it is expected that they need to change. ",['CustomersWantOSS'],"['CustomersWantOSS', 'ProducersUseCSS']"
+Aiding the process of development and testing of CPSs,"['FasterDevelopment', 'GeneralPurposeFoundation', 'HelpsDevelopmentAndTesting']",['HelpsDevelopmentAndTesting']

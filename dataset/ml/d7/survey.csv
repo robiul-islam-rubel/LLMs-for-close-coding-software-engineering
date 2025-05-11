@@ -1,0 +1,26 @@
+survey_response,llama_generated,human_codes
+"Sample code will make data easier to work with, as will hosting. I should not have to go a scrape a dataset using a csv of flickr URLs.",['EasierToWorkWith'],['EasierToWorkWith']
+I think people already try to document their datasets. having a structure will help them to not forget to detail specific aspects of the dataset. Like Nature Scientific Data provides a structure that is very useful.,['BetterDocumentation'],['BetterDocumentation']
+Often data preprocessing steps that are critical for good performance / reproduction of results go unmentioned in papers. A DataBOM could help make these more transparent.,"['IncreasedTransparency', 'IncreasedModelUnderstanding', 'Reproducibility']","['Reproducibility', 'IncreasedTransparency']"
+"It would help identify bias, vulnerability AI systems. 
+
+It would help in understanding how an Al system makes its predictions.","['IdentifyVulnerabilities', 'IncreasedModelUnderstanding']","['IdentifyVulnerabilities', 'IncreasedModelUnderstanding']"
+"Easier to determine whether the data are appropriate for the application, and whether to suspect issues with studies/products that use those data. Ease of reproducibility.",['BetterDataSelection'],"['IdentifyVulnerabilities', 'BetterDataSelection', 'Reproducibility']"
+"I would hope that DataBOMs include some kind of pre-data-analysis so I can get a good feeling of the data contained without having to inspect the data myself too much.
+Besides that, I want to be able to look up the exact versioning - being able to transform the data in different ways ",[],"['DataAnalysis', 'DataVersioning']"
+"An example of ""usage"" for the model",['BadAnswer'],['ExampleModelUsage']
+Quality Control,['BetterDataSelection'],['BetterDataSelection']
+Model validation and testing. Comparing production environment metrics with Author's results.,['ValidationAndTesting'],"['ValidationAndTesting', 'Reproducibility']"
+Benefits include better ability to detect biases and increased reproducibility of results.,"['IdentifyVulnerabilities', 'Reproducibility']","['Reproducibility', 'IdentifyVulnerabilities']"
+Some kind of guarantees of the model performance. ,"['IncreasedModelUnderstanding', 'GuaranteesOnModelPerformance', 'IncreasedModelTrust', 'ValidationAndTesting']",['GuaranteesOnModelPerformance']
+"If a widespread dataset poisoning attack was ever actually performed, it would be easier to figure out which models are affected.","['BadAnswer', 'IdentifyVulnerabilities']",['IdentifyVulnerabilities']
+"1. Prevent abuse of the dataset
+2. Help to protect the IP both the source of the raw data and the processed dataset","['ProtectIP', 'PreventDataAbuse']","['PreventDataAbuse', 'ProtectIP']"
+"Solving data poisoning issues, reproducibility issues",['Reproducibility'],"['Reproducibility', 'IdentifyVulnerabilities']"
+It would help increase the trust in the model.,"['IncreasedModelUnderstanding', 'IncreasedModelTrust']",['IncreasedModelTrust']
+I don't know.,"['BadAnswer', 'Unsure']",['Unsure']
+Better sense of the biases in datasets,"['IncreasedTransparency', 'IdentifyVulnerabilities', 'IncreasedModelUnderstanding']",['IdentifyVulnerabilities']
+"Idendity with more ease biases that could emerge from the data
+Better classify the data","['IdentifyVulnerabilities', 'BetterLabeling']","['BetterLabeling', 'IdentifyVulnerabilities']"
+"Better traceability, versioning, reproducibility of studies",['Reproducibility'],"['IdentifyVulnerabilities', 'Reproducibility', 'DataVersioning']"
+"First and foremost, help manage compliance risk",['Compliance'],['Compliance']

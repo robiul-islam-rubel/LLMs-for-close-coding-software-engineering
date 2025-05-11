@@ -1,0 +1,23 @@
+code,definition
+Adoption,The completeness and correctness of DataBOMs will improve as the technology is adopted.
+AcademicRequirements,"Make the usage of complete and correct DataBOMs required in academic settings, e.g. required for submission to conferences and journals."
+LegalRequirements,Impose a legal liability for creating DataBOMs which are incorrect or misrepresentative.
+TrustedThirdParty,"A trusted community, board, or organization should verify the completeness and correctness of DataBOMs."
+ValidationTools,Tools and tests should be able to verify the completeness and correctness of DataBOMs.
+AutomaticValidation,"Validation should occur automatically at some point in the process of creating and storing DataBOMs, such as on submission to a version control system."
+CryptographicVerification,Protect the authenticity of the DataBOM with a cryptographic hash or similar tools.
+DataGovernance,Employ data governance techniques to ensure the completeness and correctness of DataBOMs.
+Documentation,Thorough documentation aids in achieving completeness and correctness.
+FormalMethods,Formalization can help to verify the completeness and correctness of DataBOMs.
+Testing,Rigorous testing can help ensure the completeness and correctness of DataBOMs.
+StandardizedProcedures,Standardized training procedures can monitor data used and prevent inaccuracies from appearing in DataBOMs.
+Unsure,"Answer equivalent to "I don't know"
+ProvenanceInformation,Including provenance information will help to determine the correctness of a DataBOM.
+NotPossibleForPrivateInfo,Completeness and correctness cannot be assured when the DataBOM handles private information.
+TraditionalMethods,Methods employed for data quality and insurance without DataBOM
+Impossible,Impossible due to the nature of data collection or labelling.  Could be that data contains private or sensitive information or that the labeling cannot be characterized
+MLBasedDataLabeling,Data described by DataBOMs could be labeled with machine learning techniques.
+AuditTooling,Tools that can audit databom
+UpgradeTooling,Tools that can upgrade databom or components
+ZeroKnowledgeProof,Apply zero knowledge proofs to the problem
+CostlessVerification,Build data integrity with costless verification (related to the block chain)

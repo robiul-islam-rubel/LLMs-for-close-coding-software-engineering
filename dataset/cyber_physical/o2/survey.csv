@@ -1,0 +1,9 @@
+survey_response,llama_generated,human_codes
+"As mentioned before, in this context, challenges related to the development, testing, and deployment of software and hardware components include version control, compatibility issues, security risks, and compliance with regulations and standards. To address these challenges, it is important to maintain accurate and up-to-date SBOM/HBOM that contains all the necessary data fields mentioned above. This can help in ensuring that the components are developed, tested, and deployed successfully, and any issues can be identified and addressed promptly.
+
+Hence, while traceability in CPS is important, SBOMs/HBOMs are essential to it.",['Important'],"['CompatibilityIssues', 'Compliance', 'Important', 'SecurityRisks', 'VersionControl']"
+As it is known which SBOM or HBOM is related to (due to the versioning and dependencies) it allows the ability to back track from which component or line of code a specific development or issue is related.,"['VersionControl', 'Important']","['DependencyManagement', 'ProvideProvenance', 'VersionControl']"
+"Exactly that - regardless of the component type, you should be able to understand where it came from, when it was produced, and what it is intended to do.","['ProvideProvenance', 'Important']","['ProvideIntentionData', 'ProvideProvenance']"
+the role will be essential; ,['Important'],['Important']
+SBOMs / HBOMs make sure that any dependencies are documented for CPS. ,"['DependencyManagement', 'Important']",['DependencyManagement']
+As an active role as it keeps track of the vendor and versions used in the CPS,"['VersionControl', 'Important']","['ProvideProvenance', 'VersionControl', 'DependencyManagement']"

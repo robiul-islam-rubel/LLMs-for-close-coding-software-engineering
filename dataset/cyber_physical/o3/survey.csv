@@ -1,0 +1,10 @@
+survey_response
+"Overall, the use of an SBOM or HBOM can help in better understanding and mitigating the risks associated with cyber-physical systems, by improving visibility, accuracy, planning, and incident response as well as securing critical infrastructure and protecting against cyber attacks.
+Specifically, the use of an SBOM or HBOM can provide better visibility into the components of a cyber-physical system. This can help identify potential vulnerabilities and weaknesses that could be exploited by cyber attackers. With an SBOM or HBOM in place, risk assessments can be more accurate and comprehensive (this can help identify areas where where vulnerabilities need to be fixed).
+An SBOM or HBOM can help organizations plan their cybersecurity strategy more effectively. By identifying potential vulnerabilities early on, organizations can take steps to mitigate risks before they become major problems. Complementary, with an SBOM or HBOM in place, incident response teams can more quickly and effectively respond to incidents. They can quickly identify the source of the problem and take steps to address it."
+"SBOMs/HBOMs can provide an improved visibility into the components. 
+This leads to a more accurate and comprehensive risk assessments by identifying potential vulnerabilities"
+"Well, if you make it into a digital list that can be automatically processed, and you also have a SBOM/HBOM program that checks it against an allowlist and/or a blocklist, you can automate the verification that a given device has validated and/or questionable components."
+It will reduce the risk since everything is standard and well-defined.
+"Risks are reduced w.r.t. software clearing / licenses, safety and security levels, maintainability / update / upgrade of systems  "
+Allow to identify if any used component has any known vulnerability

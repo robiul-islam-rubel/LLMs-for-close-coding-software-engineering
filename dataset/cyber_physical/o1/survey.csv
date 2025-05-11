@@ -1,0 +1,39 @@
+survey_response,human_codes
+"This inventory typically (or should) contain specific data fields to accurately and sufficiently describe the components of the system.
+The following are some of the necessary data fields that an SBOM/HBOM must contain:
+1. Component name: The name of the software/hardware component must be clearly specified to enable identification and tracking.
+2. Version: The version number of the component must be included as it helps in tracking the changes and updates made to the component.
+3. Vendor: The name of the vendor who supplies the component must be specified to enable the sourcing of components and tracking of potential vulnerabilities.
+4. Licensing information: The type of licensing agreement, terms, and restrictions must be provided to ensure compliance and to avoid legal issues.
+5. Dependencies: The dependencies between software/hardware components must be specified to enable the identification of any security or compatibility issues.
+6. Functionality: The intended functionality of the component must be specified to ensure that it meets the system's requirements and objectives.
+7. Source code location: The location of the source code must be included to facilitate tracking of any changes made to the code and for debugging purposes.
+8. Security vulnerabilities: Any known security vulnerabilities or potential risks associated with the component must be listed to ensure that they are addressed during development and testing.
+9. Testing and quality assurance data: The results of testing and quality assurance checks must be included to ensure that the component meets the required standards and specifications.
+10. Deployment information: Information about how the component is deployed, configured, and integrated with other components must be included to ensure that it works properly in the system.
+
+In this context, challenges related to the development, testing, and deployment of software and hardware components include version control, compatibility issues, security risks, and compliance with regulations and standards. To address these challenges, it is important to maintain accurate and up-to-date SBOM/HBOM that contains all the necessary data fields mentioned above. This can help in ensuring that the components are developed, tested, and deployed successfully, and any issues can be identified and addressed promptly.","['ComponentName', 'Version', 'Dependencies', 'Vulnerabilities', 'SourceLocation', 'DeploymentInformation', 'License', 'Vendor', 'TestingAndQualityAssuranceData', 'Functionality']"
+"First there should be a unique identification for each SBOM or HBOM and it should be clear enough to understand what it does.
+Also, we should always have available which version of the SBOM or HBOM we are currently using. Also if it is necessary to install any other SBOM or HBOM to be able to use the one we select or need.","['Version', 'UniqueID']"
+"HBOM:
+- Part #s
+- Vendor
+- Date/Place of Manufacture
+
+SBOM:
+- Every library used
+- Library versions
+- Library checksum for confirmation
+- Relevant licensing","['Dependencies', 'License', 'Checksums', 'PlaceOfManufactor', 'DateOfManufactor', 'PartNumbers', 'Vendor']"
+The application requirements; the system resource requirements; the language versions; the context for the validation tests; the limitations;,"['Version', 'Limitiations', 'Requirements', 'TestingAndQualityAssuranceData']"
+"'- SW version
+- Dependencies on other SW components, containers, libraries, interface versions
+- Expectations w.r.t. environment: which services should be available, is it a secure environment,...
+- used HW (""version"")
+- which tools are used for developing / configuring / operating / maintaining the SW and HW in general (including SW operation system, development tools, expected physical environment etc.)
+","['Version', 'Dependencies', 'DevelopmentTools', 'PartNumbers', 'Requirements']"
+"HBOM:  Part Name, Part Number, Vendor, Version, Price, URL, Quantity, Packaging, Description, Notes
+
+SBOM: Name, Vendor, Version, Price, URL, Licence, Description, Notes
+
+","['Price', 'Quantity', 'License', 'Packaging', 'AdditionalNotes', 'ComponentName', 'SourceLocation', 'PartNumbers', 'Description', 'Vendor', 'Version']"

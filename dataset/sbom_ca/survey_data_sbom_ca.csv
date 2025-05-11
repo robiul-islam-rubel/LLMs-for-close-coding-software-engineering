@@ -1,0 +1,71 @@
+survey_response
+A SBOM lists all dependencies of a project. The goal is to actually be aware of implict dependencies.
+A SBOM lists all dependencies of a project. The goal is to actually be aware of implict dependencies.
+"They are the bill of materials, the itemise all components, versions, licenses, etc for all parts of an application. A common reason to do this is vulnerability scanning and ensuring one can match CVEs to exact versions of libraries, or to report on FOSS licenses used by components to ensure compliance."
+"Enumerated list of software components (e.g. open-source packages, commercial code bases, etc.) that come together to form a software package. Purposes could be for systematic root cause debugging, tracking licensing/attribution requirements, documentation."
+Inventory of components for software development and deployment. Important for visibility and risk management.
+"Software Bill of Materials is a description of the component parts of a Distributed Package of Software, much like a list of ingredients you find on packaged foods.
+The purpose of SBOMs is to provide transparency on software components used within the product.  This transparency allows for downstream consumers of the SBOM to identify security risks, legal licensing risks, and export restriction risks on the software consumed.  It also enables suppliers to accurately represent their own SBOMs for their products to their consumers by passing along information from upstream component SBOMs."
+"A “software bill of materials” (SBOM) has emerged as a key building block in software security and software supply chain risk management. A SBOM is a nested inventory, a list of ingredients that make up software components. "
+"Software Bill of Materials is a standard industry wide BOM specialised for the documentation of software packages.
+This helps not only in versioning multi-package software projects but also in license management and package provenance."
+"List of libraries, with their metadata, which includes licenses and other relevant information about its usage."
+"An SBOM defines what components a software artifact contains. They are used for multiple purposes, but especially to determine vulnerabilities and license compliance."
+A SBOM is a machine-readable manifest describing the individual components that comprise a piece of software. 
+"SBoMs are the recipe of what is built into software packages. They allow the consumer of the SBoM to see what is included, who built it, and what licence it has."
+"A SBOM is a formal set of machine-readable metadata that uniquely identifies a software package and its dependent components. It  should include version and supplier information as well as other relevant information including copyright and licence data. The SBOM should identify all of the components included which your software is dependent on; these components could be 3rd party components e.g. library modules or an application framework. 
+SBOMs can  support a number of use cases including vulnerability management, licence management and softawre integrity checking."
+SBOMs are meant to describe the components and known vulnerability status of those components that comprise a software system.  The purpose is to improve transparency of integrated software components for software package purchasers/users.
+"A Software Bill of Materials or SBOM catalogs information about the dependencies used by a software system or library. These ideally include information about transitive dependencies (the libraries used by other libraries). Common information is the version number of each library, the dependency repository that the library’s package is retrieved from, a cryptographic hash of the library’s package, and a listing of each dependency the library has. Optional information that can also be included is a list of security vulnerabilities that each dependency is vulnerable to."
+"software bill of material, an inventory of dependencies (or any other assets)"
+"SBOM can serve multiple purposes. SBOM's are used to communicate information about the components contained in a software product which is used by a software consumer to perform a software risk assessment (NTIA minimum elements) or other purposes, such as license management and dependency tracking."
+"An SBOM is a complete list of components and their metadata (licences, copyrights) included in a software, along with all transitive dependencies.
+"
+"It's a kind of Bill of Materials which filled with all the software components in use of the specific software developed, delivered and operated.
+Also it's giving information of what/where/how/whom etc around each one of piece of software components built the specific software for intended purpose to utilize these information to maintain/perotect the IT systems where running the specific software."
+I create sBOMs for all components/packages and data included in our software product.
+An SBOM is an inventory of the components a software product/app/system is made of. Mostly third-party components. Their purpose is to inform the software consumer about the origin of these components; and optionally about their license terms; and to track known bugs (including security bugs).
+Understand the issues related to software supply chain management
+"The SBOM is a set of metadata that describes the dependency tree of a software package. It includes key information such as the provider, version number, and component name. These basic details play a key role in analyzing software vulnerabilities"
+"The SBOM is a set of metadata that describes the dependency tree of a software package. It includes key information such as the provider, version number, and component name. The purpose is to analyze software vulnerabilities"
+"List of all software components (proprietary and open source code), open source licenses, and dependencies in a given product"
+"SBOM is a nested list of software. It is a list of components that make up software components.
+SBOM has become a key component of software security and software supply chain risk management. "
+"SBOM is a formal, structured record. It not only provides a detailed description of the components of a software product, but also describes the supply chain relationships between these components. SBOM provides an overview of the packages and libraries introduced in the application and the relationship between those packages and libraries and other upstream projects. SBOM is very useful when reusing code and introducing open source code."
+"      A SBOM is a formal, structured record. It not only describes the components of software products in detail, but also describes the supply chain relationship between these components. The SBOM Outlines the packages and libraries introduced into the application and how they relate to other upstream projects. This is useful when reusing code and introducing open source code.
+      An appropriate SBOM helps an organization know the packages it has deployed and the versions of these packages, so that it can update them according to its own needs to maintain security.The use of SBOM is not limited to security. For example, it can also help developers keep track of open source licenses that are included in different types of software components."
+SBOM are universal layer and language ti capture data related to the software composition if your product.
+an ingredient list of software. They are a file format so that tools can be built on top of them.
+"Without looking it up, I would assume that a SBOM is a list of other software that we need to use to get our software working, or to achieve a certain goal. It should probably list at least two pieces of data: the license, and whether that's something that fits into our legal framework, and any licensing costs with the number of users / usage tiers that we need to use.
+Additionally that should extend to their dependencies as well."
+"Software BOMs describe the components and their dependencies the bring in to an environment. We do them on many levels: frondend (js), backend (java) and containers ..."
+"SBOM is an ""ingredient list"" of a given solution/software dependencies, versions and associated risks."
+"A Software Bill of Materials (SBOM) is a list of all the software components used to create a software product. It includes information about the version, origin, and license of each component. SBOMs are especially useful for open source software, as they provide transparency and accountability into the software's components."
+"software bill of materials, they describe the contents of software packages in terms of composition, dependencies and relationship with other software and overall metadata."
+Define as precisely as possible upstream dependencies for running the code in question. 
+We use them exclusively for licencing validation 
+A list of all the pieces of software and their versions that make a software product. Like raw materials.
+"They describe the components used for a software system, i.e., the unique identifier of a component, the used version and additional metadata on this component. This may, e.g., include licensing information, vendor information and the like. The SBOM is used to fulfill compliance requirements, like open source compliance and is used throughout the life cycle of the software system to handle events like incoming vulnerability information and their relevance for the system."
+"A record of the software components which comprise software application or module. It allows inspection/interrogation of the composition of an application or module in order that you can check for, amongst other things, license risk and vulnerabilities. There are a couple of competing standards for these."
+Supply chain security
+it's like an ingredient list for software products
+"Software Bill Of Materials are basically a list of all software components included in a distributed software projects. All components have some metadata listed like URLs of upstream sources, patches and of course, license informations. The main purpose is to inform whom would like to use the corresponding distributed software in their own products (software or hardware) of what are the license obligations derived by the use of this software.   "
+"For me, I think of Software Bills-of-Materials as the direct and transitive dependencies necessary to run a piece of software."
+"To have a storage place for studies that can be of easy access and free contribution to the community, aiming to meet new people and/or improve fields and lists for studies"
+Collection of dependencies for developed software.
+bill of materials in a piece of software
+"Software bill of materials are a complete description of the dependencies of a software component and the component itself including file names, package names, versions, file hashes, and such, presented in formats readable by both humans and machines such as JSON or XML. "
+"A formal description of dependencies, and relations in software systems."
+"SBOMs should essentially contain list of all third-party/commercial/open source software components used in a product. It should also mention tools used during compile, build, run time - including direct dependencies. Considering today's complex processes of how software components are interrelated to each other in a complex manner, it becomes increasingly difficult to create and maintain a near accurate SBOM."
+"It’s a list of external dependencies in a software project, there you can find info about license ls and versions "
+Ingredients of my software 
+Description of components of a system and how they relate.
+Documentation for all third party software used in a particular software component/system.
+"An ingredient list of all the components present in a given container image along with license information, version information, URL of the codebase."
+having a coherent understanding of the software materials and the structure in which they are used for each project 
+"An ingredients list for software products. Help vendors, buyers, market surveillance authorities better understand software composition in order to avoid and more quickly remediate/coordinate around issues found at component level."
+"Software Bill of Materials is a list of software components the is included in a distributed software package.  It may optionally include information on software components used to document, build or test the distributed software package.  A good software Bill of Material will include all direct and indirect dependencies of the distributed software package as well as supplier and SBOM creation information."
+"A software bill of materials is a list of components used in a given piece of software, which could include only components ""shipped"" as part of a package but could also include things like build/test toolchains and linked 3rd party components.  My team typically uses them for security or licensing compatibility checks."
+"In my builds, the SBOMs are a list of the specific software packages, including their versions, that are used when building the package or included as shared libraries when running the software after installation."
+SBOM's are to support documenting and managing your software supply chain. Important for maintaining security in the current age of supply-chain attacks.
+SBOM contains the inventory of all libraries being used in the given repository/service/code.

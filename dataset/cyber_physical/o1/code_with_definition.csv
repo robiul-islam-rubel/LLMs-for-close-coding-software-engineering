@@ -1,0 +1,24 @@
+code,definition
+ComponentName,Name of component
+Version,Version of the component
+Vendor,"Vendor, supplier, or producer of component"
+License,License of the component
+Dependencies,The dependencies of the component
+Functionality,The intended functionality of the component
+Vulnerabilities,Known vulnerabilities or risks
+SourceLocation,Where the source code for the project can be found
+TestingAndQualityAssuranceData,Data showing that a component meets required standards and specifications
+DeploymentInformation,"information about how component is deployed, configured, integrated"
+UniqueID,A unique identifier for the component
+PartNumbers,The part numbers or other identifiers associated with hardware components
+DateOfManufactor,When the product was assembled
+PlaceOfManufactor,Where the product was assembled
+Checksums,Checksums used for validation and identification
+Requirements,"Requirements to run or use the product (system level, hardware, etc)"
+Limitiations,Limitations of a product or approach
+DevelopmentTools,Tools that are used in the development process
+Price,The price or cost of a component
+Description,Description of the component
+Quantity,The quantity of the component
+AdditionalNotes,Additional notes about the component
+Packaging,The packaging of a physical component

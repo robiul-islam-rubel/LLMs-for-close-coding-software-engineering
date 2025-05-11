@@ -1,0 +1,23 @@
+code,definition
+TimeConsuming,Creating/using AIBOMs requires a great deal of time.
+Documentation,AIBOMs are another component which requires developers to write documentation.
+DomainSpecificKnowledge,Creating/using AIBOMs may require specialized knowledge in specific areas.
+TooStructured,The highly-structured format of AIBOMs may hinder work.
+Adoption,"AIBOMs may go unused, or created with only minimal levels of detail."
+WithholdingInformation,Organizations may be reluctant to release the information which would populate AIBOMs.
+Security,Bad actors may find new vulnerabilities by looking through AIBOMs. Security by obscurity
+Unsure,"Answer equivalent to ""I don't know"""
+CustomizableTools,Tools should be able to adapt to different use cases.
+Distribution,Distributing AIBOMs is difficult.
+Standardization,AIBOMs should be better standardized.
+NotUseful,AIBOMs do not solve the problems they purport to.
+UseCases,AIBOMs should be able to adapt to different use cases.
+EnsureConfidentiality,AIBOMs should not release confidential information.
+VerifyDependencies,Difficult to verify the dependencies claimed by an AIBOM.
+Size,AIBOMs are too large.
+Versioning,It is difficult to manage different versions of AIBOMs.
+NoChallenges,Respondent could not identify any challenges.
+CrossModel,AIBOMs should work for various types of models and systems
+BadAnswer,Response is not applicable or nonsensical.
+ObsoleteQuickly,The rapid changes and improvements of AI models will result in AIBOMs becoming quickly obsolete
+Maintenance,It will be difficult to maintain sources and methods

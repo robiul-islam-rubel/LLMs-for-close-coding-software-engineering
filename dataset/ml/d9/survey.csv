@@ -1,0 +1,23 @@
+survey_response,llama_generated,human_codes
+"again, by making a communitywide push for these thing. I believe that the neurips dataset track requires a dataset card to be submitted alongside the paper, which includes some basic parts of a dataBOM. Expanding this requirement and the contends of this dataset card should help increase the use of DataBOMs.",['AcademicRequirements'],"['AcademicRequirements', 'Adoption']"
+Create a legal liability for misrepresenting data.,['LegalRequirements'],['LegalRequirements']
+Perhaps requiring them to publish papers in conferences and journals.,['AcademicRequirements'],['AcademicRequirements']
+Having an independent community or board that checks.,['TrustedThirdParty'],['TrustedThirdParty']
+Require validation of the BOM using a standardized validation tool upon submission to whatever system will store the data.,"['ValidationTools', 'AutomaticValidation', 'DataGovernance', 'AuditTooling']","['ValidationTools', 'AutomaticValidation']"
+"hashing the data so I can check for modifications, ensuring that the dataset is complete and contains the data fields mentioned above, ","['ValidationTools', 'CryptographicVerification']",['CryptographicVerification']
+Just using a CICD action that runs some tests ,[],"['AutomaticValidation', 'ValidationTools']"
+Data Governance,['DataGovernance'],['DataGovernance']
+"Reproducing results by trusted third party. That can be partial, like validation data only.",['TrustedThirdParty'],['TrustedThirdParty']
+Cryptographic hash functions of the data can help ensure that the version is in fact what they say it is.,['CryptographicVerification'],['CryptographicVerification']
+"Documentation, rigourous testing, formalization. ","['DataGovernance', 'FormalMethods']","['FormalMethods', 'Documentation', 'Testing']"
+Somebody would have to design a 'canonical' training procedure that defines a process for generating approved dataset files that get read and verified somehow during the training process to make sure no unknown/outside data is used to train a model,"['DataGovernance', 'StandardizedProcedures']",['StandardizedProcedures']
+"I am not sure about this part, traditional data quality may help to ensure components of the dataset partially.",['Unsure'],"['TraditionalMethods', 'Unsure']"
+"Again, provenance",['ProvenanceInformation'],['ProvenanceInformation']
+Not sure this is feasible when private information used.,"['Unsure', 'NotPossibleForPrivateInfo', 'Impossible']",['Impossible']
+I don't know.,['Unsure'],['Unsure']
+"I guess if you are using ML for data labeling, you could make some progress. With human annotation it seems impossible to fully characterize.","['Unsure', 'Impossible']",['Impossible']
+I am not sure.,['Unsure'],['Unsure']
+"Create automated tools that support the validation, standardization, upgrade, and audit of the DataBOMs.","['ValidationTools', 'AutomaticValidation', 'DataGovernance', 'AuditTooling', 'UpgradeTooling']","['ValidationTools', 'AutomaticValidation', 'AuditTooling', 'UpgradeTooling']"
+"'- Trust
+- Clever application of zero-knowledge proofs
+- Build data integrity with what Christian Catalini calls costless verification","['ZeroKnowledgeProof', 'CostlessVerification']","['ZeroKnowledgeProof', 'CostlessVerification']"

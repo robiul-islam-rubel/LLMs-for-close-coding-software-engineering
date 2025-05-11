@@ -1,0 +1,9 @@
+code,definition
+BadAnswer,Answer is not applicable or nonsensical
+NoTechnique,No specific technique or tools are used to obtain a list of dependencies
+PackageManager,"A dependency list is acquired using a package manager like PyPi, npm, Ruby Gems, Maven, Homebrew, etc."
+ToolAssisted,"A tool, other than the default package manager for a language, is used to acquire the dependency list.  Examples: poetry, composer, etc"
+README,Some or all dependency information is manually documented in a README file
+PackageFile,Uses the package.json or requirements.txt of other projects to determine their dependencies
+NoDependencies,"The projects have few, if any, dependencies that need to be listed"
+ManuallyTracked,Dependencies are manually tracked

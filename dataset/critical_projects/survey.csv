@@ -1,0 +1,31 @@
+survey_response,llama_generated,human_codes
+no,['NoTechnique'],['NoTechnique']
+Python PIP and Poetry,"['PackageManager', 'ToolAssisted']",['PackageManager']
+"npm
+composer","['PackageManager', 'ToolAssisted']",['PackageManager']
+"Mostly I work on web projects. All of them have a `package.json` file stored in the root directory, where all of the (mostly node.js) dependencies are listed. Other dependencies or tools that are linked to that project may be documented in 'README' files with a detailed explanation of the purpose and usage.","['PackageManager', 'README', 'PackageFile', 'ManuallyTracked']","['PackageFile', 'README']"
+"https://github.com/Homebrew/brew/network/dependencies
+https://github.com/Homebrew/homebrew-core/network/dependencies
+https://github.com/Homebrew/homebrew-cask/network/dependencies",['PackageManager'],['PackageManager']
+"No, it is informally gathered.
+","['NoTechnique', 'ManuallyTracked']",['NoTechnique']
+"I largely write C, so there's not a lot of dependencies, and those dependencies typically don't have recursive dependencies (one recursive dependency to zlib being the exception IIRC).","['NoTechnique', 'NoDependencies', 'ManuallyTracked']",['NoDependencies']
+"Python: requirements.txt
+C/C++: all dependencies optional
+Internal code: internal system",[],['PackageFile']
+Maven pom is an sbom. Itâs required as part of deploying to maven central. ,['PackageManager'],"['PackageFile', 'PackageManager']"
+There exists a package management tool called Cargo in Rust ecosystem. Pretty everything in Rust will use Cargo and dependencies are necessary to be specified in Cargo.toml to be able to use.,['PackageManager'],['PackageManager']
+"I only publish the direct dependencies, obviously known, not the dependencies of the dependencies. I also allow users to inject variations of those dependencies when they want to - and in this case I can't know the list of dependencies.","['NoTechnique', 'ManuallyTracked']",['NoTechnique']
+We use the Apache Maven build tool,"['PackageManager', 'ToolAssisted']",['PackageManager']
+"In order to build from source, the build infrastructure requires the dependencies, thus this is either an explicit input or explicit output of the build process, depending on the platform and languages used in the codebase.",[],['NoTechnique']
+No specific tools other than build dependencys,"['BadAnswer', 'NoTechnique', 'ManuallyTracked']",['NoTechnique']
+We know the direct requirements and document them in the README.,"['NoTechnique', 'README', 'ManuallyTracked']",['README']
+Dependency information is required for technical reasons independent of any policy mandate.  That is how a software ecosystem operates.  Each project needs to provide the user a way to automatically include all needed dependencies with your project.  And there are common repos that host the universe of packages your project draws dependencies from.,[],['PackageManager']
+package.json,"['PackageManager', 'PackageFile']",['PackageFile']
+"Nearly all direct dependencies are listed in package.json. This is generally the case for all JavaScript and TypeScript projects. Indirect dependencies are harder to see, although there are NPM/Yarn commands to list them. 
+
+However, it's important to note that most such projects don't intentionally publish this list for external viewing. It's a side effect of using package.json. Also, any dependencies which have been customized are generally not listed here, and it's harder to view them - the convention is to place them in a vendor/ or libs/ folder but it's not always followed.",['PackageManager'],"['PackageFile', 'PackageManager']"
+NPM package.json,"['PackageManager', 'PackageFile']","['PackageManager', 'PackageFile']"
+"For project begun recently (>2010), their dependencies were documented and tracked from the beginning. For older projects, the list was obtained by manually auditing build system files. The latter type of lists are suspected to be incomplete/inaccurate.
+
+For projects I'm not actively involved in maintaining, I've used tool like `ldd` for this in the past.",['ManuallyTracked'],"['ToolAssisted', 'ManuallyTracked']"

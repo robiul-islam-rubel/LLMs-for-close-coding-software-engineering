@@ -1,0 +1,22 @@
+code,definition
+Reproducability,AIBOMs make it easier to reproduce work.
+Security,AIBOMs make it easier to detect/locate vulnerabilities or mitigate other security risks.
+OpenAccess,AIBOMs make it faster/easier to access resources associated with a system.
+BetterDocumentation,AIBOMs assist with documenting work.
+IncreasedTransparency,"Increased transparency into how the data was acquired, processed, etc."
+Teaching,AIBOMs can help people unfamiliar with the project learn more about it.
+Unsure,"Answer equivalent to I don't know"
+Automation,AIBOMs help to automate development tasks.
+BestPractices,The use of AIBOMs helps developers to follow best practices.
+ExampleModelUsage,The AIBOM provides an example of usage for the model.
+FasterDeployment,AIBOMs help developers make updates and deployments faster.
+DetectBiases,AIBOMs make it easier to identify potential biases in the model.
+ProblemLocation,AIBOMs highlight issues with models and make them easier to find.
+VerifyUsability,"Help to verify usability of the system.
+(Vague answer)"
+Trust,AIBOMs increase trust in the model.
+ImprovedIteration,AIBOMs will make the iterative process of improving on previous works much easier
+ContinuousIntegration,AIBOMs will facilitate the continuous integration of ai models
+BadAnswer,Response is not applicable or nonsensical.
+BetterCollaboration,AIBOM could make collaboration easier
+Compliance,AIBOMs will assist in managing compliance

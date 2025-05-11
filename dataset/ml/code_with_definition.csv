@@ -1,0 +1,24 @@
+code,definition
+IncreasedAdoption,Increased use and adoption of AIBOM will help make accuracy checking easier
+Documentation,More and improved documentation of AI models and / or there dependencies
+Requirements,Requirements imposed by top paper venues or other sources.  These requirements will make AIBOMs more prevalent and more correct
+ReproduceModel,The ability to successfully reproduce the model demonstrates the correctness of the AIBOM
+BadAnswer,"The response doesn't answer the asked question.  The response is incoherent, rambling, etc."
+Certification,Review boards or another 3rd party assess the correctness of an AIBOM or certify a particular vendor
+ChatBot,The answer likely was derived from a chatbot and should thus be excluded from analysis
+Databases,Compare AIBOM contents with available 3rd party databases.
+PinnedVersions,The specific versions of dependencies used should be included explicitly
+IncludedEnvironment,A docker container should be provided that has the training environment included
+ContinuousIntegrationTests,Tests should be run as part of the continuous integration process
+EstablishBestPractices,Establish a set of agreed upon rules and best practices for the creation of AI models and their accompanying AIBOMs
+EmphasisOnDataDependencies,An emphasis should be placed on data dependencies
+CommunityReporting,Users and developers can report false or incorrect dependencies in an AIBOM
+ProvenanceInformation,Including provenance information will help to determine the correctness of an AIBOM
+AutomatedTool,"Response proposes the use of a tool, even if the specific details aren't clear"
+UniversalAPI,The establishment of a universal and agreed upon API
+ListLibraries,List libraries used by a project to compare against the SBOM
+ModelTrainedViaAIBOM,"The model and the AIBOM are inseparable and if the AIBOM is incorrect, then the model will not run"
+ModelCode,AIBOM correctness can be verified by viewing the model's code.
+ScreeningPipeline,Screening processes should be added to the development pipeline.  These could be automated tools and tests or actual manual reviews
+ZeroKnowledgeProof,Apply zero knowledge proofs to the problem
+CostlessVerification,Build data integrity with costless verification (related to the block chain)

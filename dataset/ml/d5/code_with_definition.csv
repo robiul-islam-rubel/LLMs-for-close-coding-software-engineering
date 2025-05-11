@@ -1,0 +1,18 @@
+code,definition
+Separate,"AIBOMs and DataBOMs can be used together, but should be two separate entities"
+BadAnswer,"The response doesn't answer the asked question. The response is incoherent, rambling, etc.
+
+The answer speaks specifically about the relation between data and AI instead of their associated BOMs"
+Complementary,AIBOMs and DataBOMs should be used together
+ChatBot,The answer likely was derived from a chatbot and should thus be excluded from analysis
+References,Clear and unambiguous references should be used to link AIBOM to DataBOM and vice versa
+Integratable,Integration should be easy (i.e. databom integration with aibom should be easy)
+NonSymmetric,"The relationship between AIBOM and DataBOM isn't symmetric.  That is that AIBOMs can include references to DataBOM, but DataBOMs shouldn't include references to AIBOMs."
+OneToMany,The AIBOM to DataBOM relationship can be described as a one-to-many.  A single AIBOM can reference one or more DataBoms.
+Base,DataBOMs serve as the base / foundation for AIBOM
+AiForDownstream,AIBOMs are generated for downstream components
+DataFromUpstream,DataBOMs are acquired from upstream components
+PackagedTogether,"DataBOMs and AIBOMs should somehow be packaged together, since one without the other is useless."
+DataBomPartOfAibom,The information from a databom should be included in an aibom
+Unsure,"Answer equivalent to I don't know"
+Compatible,AIBOMs need to be made compatible with databom and vice versa
