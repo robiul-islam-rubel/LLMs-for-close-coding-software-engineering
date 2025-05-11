@@ -23,5 +23,16 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+# 📚 Uploading your own survey...
+If you want to upload your own survey dataset. Then, make sure your survey is in a single csv file and your code and code definiion is also another csv file you can upload it by clicking the upload button.
+
+
+# Streamlit
+We use streamlit for uploading and the interactions. If you want to run the app.py file then:
+
+```
+streamlit run main.py
+```
+
 
 
