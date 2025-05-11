@@ -31,7 +31,7 @@ If you want to upload your own survey dataset. Then, make sure your survey is in
 We use streamlit for uploading and the interactions. If you want to run the app.py file then:
 
 ```
-streamlit run main.py
+streamlit run app.py
 ```
 
 
