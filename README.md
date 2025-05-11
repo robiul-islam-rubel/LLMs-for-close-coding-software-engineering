@@ -22,6 +22,12 @@ source .venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+Before running the code make sure to comment out the data path of the file
+
+5. Run the code
+```
+python multi_agent3.py
+```
 
 # 📚 Uploading your own survey...
 If you want to upload your own survey dataset. Then, make sure your survey is in a single csv file and your code and code definiion is also another csv file you can upload it by clicking the upload button.
