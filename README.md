@@ -36,6 +36,6 @@ streamlit run main.py
 
 
 # Webpage of uploading survey
-![alt text](image.png)
-![alt text](image2.png)
+![alt text](figures/image.png)
+![alt text](figures/image2.png)
 
